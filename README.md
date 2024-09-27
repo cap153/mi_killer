@@ -1,0 +1,2 @@
+# mi_killer
+一个基于DrissionPage的小米商城秒杀python脚本
