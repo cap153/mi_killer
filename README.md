@@ -16,4 +16,4 @@
 python mi_killer.py
 ```
 
-【小米商城抢购秒杀，基于DrissionPage的python脚本】 
+【小米商城抢购秒杀，基于DrissionPage的python脚本】 https://www.bilibili.com/video/BV1JKsdeCEJQ/?share_source=copy_web&vd_source=d34abe3786a6b85ecc07875a85795885
