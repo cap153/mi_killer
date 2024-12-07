@@ -5,8 +5,8 @@ import datetime
 # 创建对象
 cart = Chromium(9225).latest_tab
 
-# 指定秒杀时间
-kill_time = "2024-06-18 18:18:00.00000000"
+# 指定秒杀时间，格式为“时:分:秒.毫秒”，无需设定日期
+kill_time = "20:00:00.00000000"
 
 # 打开小米商城购物车，需要手动点击登陆
 cart.get("https://www.mi.com/shop/buy/cart")
@@ -15,7 +15,7 @@ cart.wait.ele_displayed('x://*[@id="app"]/div[2]/div/div/div/div[1]/div[2]/div[1
 
 while(True):
     # 获取当前时间
-    now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+    now = datetime.datetime.now().strftime('%H:%M:%S.%f')
     print(now) # 打印当前时间测试
     # 判断当前时间是否到达了秒杀时间
     if(now>kill_time):
